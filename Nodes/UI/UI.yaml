@@ -231,12 +231,12 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 1920.0
+    Value: 1860.0
   - Name: Height
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 1080.0
+    Value: 660.0
   - Name: Caption
     Type: BaseDataVariableType
     DataType: String
@@ -266,12 +266,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 360.0
+      Value: 350.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 70.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -281,7 +281,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 84.0
+      Value: 60.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -308,12 +308,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 80.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 560.0
+      Value: 570.0
   - Name: Image2
     Type: Image
     Children:
@@ -325,22 +325,22 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 220.0
+      Value: 210.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 80.0
+      Value: 70.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 570.0
+      Value: 720.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 560.0
+      Value: 570.0
   - Name: Label1
     Type: Label
     Children:
@@ -364,5 +364,50 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 40.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+  - Name: WebBrowser1
+    Type: WebBrowser
+    Children:
+    - Name: URL
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "http://127.0.0.1:3000/d/admpfph/influxdb-3?orgId=1&from=now-5m&to=now&timezone=browser"
+    - Class: Reference
+      Target: ns=5;i=354
+      Direction: Forward
+    - Class: Reference
+      Target: ns=5;i=356
+      Direction: Forward
+    - Class: Reference
+      Target: ns=5;i=358
+      Direction: Forward
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1110.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 430.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 130.0
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
